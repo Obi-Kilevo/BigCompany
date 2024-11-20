@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBI Design</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons for Social Media Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BigAir Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+                </ul>
+            </div>
+            <!-- Search Bar -->
+            <form class="d-flex ms-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Type to text" aria-label="Search">
+                <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Main Background Section with Background Image -->
+    <div class="container-fluid p-0" style="background-image: url('ombeni.jpg'); background-size: cover; background-position: center; height: 100vh; background-attachment: fixed;">
+        <div class="d-flex justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
+            <div class="row w-100">
+                <!-- Left Content Section for Motto -->
+                <div class="col-lg-6 text-white d-flex align-items-center">
+                    <div>
+                        <h1 class="display-4">BigAir Company</h1>
+                        <p class="h3 fw-light">
+                            Our Motto: We are <strong class="text-warning">Bright</strong> in our ideas, <br>
+                            <strong class="text-warning">Intelligent</strong> in our solutions, <br>
+                            and always <strong class="text-warning">Genuine</strong> in our approach. <br>
+                            We provide <strong class="text-warning">Affordable</strong> services, stay <strong class="text-warning">Inposition</strong> to lead, and <br>
+                            are <strong class="text-warning">Responsible</strong> in all we do.
+                        </p>
+                        <button class="btn btn-warning mt-3">Join Us</button>
+                    </div>
+                </div>
+
+                <!-- Right Login Form Section -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="card shadow-lg w-75">
+                        <div class="card-body p-4" style="background-color: rgba(0, 0, 0, 0); border-radius: 10px;">
+                            <h2 class="text-center text-warning mb-4">Login Here</h2>
+                            <form action="#" method="POST">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter Email Here" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" placeholder="Enter Password Here" required>
+                                </div>
+                                <button type="submit" class="btn btn-warning w-100">Login</button>
+                            </form>
+                            <p class="text-center mt-3">Don't have an account? <a href="#" class="text-warning">Sign up here</a></p>
+
+                            <!-- Social Media Login Section -->
+                            <div class="d-flex justify-content-center mt-4">
+                                <a href="#" class="btn btn-outline-primary mx-2"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="btn btn-outline-danger mx-2"><i class="bi bi-google"></i></a>
+                                <a href="#" class="btn btn-outline-info mx-2"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="btn btn-outline-secondary mx-2"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
